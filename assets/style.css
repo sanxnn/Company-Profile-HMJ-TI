@@ -399,3 +399,14 @@ header {
   color: #b0c4de;
   background: black;
 }
+
+.aspirasi {
+  /* background-color: black; */
+  padding: 0 30px;
+  width: 80%;
+  margin: auto;
+}
+
+.aspirasi h2{
+  text-align: center;
+}
