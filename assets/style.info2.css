@@ -1,0 +1,146 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #ffffff;
+            /* Latar putih */
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        .aom-header {
+            background-image: url('../photo-informasi/nidji.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            position: relative;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .aom-header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+        }
+
+        .aom-content {
+            z-index: 10;
+            position: relative;
+        }
+
+
+        .aom-content h1 {
+            font-size: 3em;
+            margin-bottom: 5px;
+        }
+
+        .aom-content h1 {
+            font-size: 1.5em;
+            font-weight: normal;
+            margin-bottom: 10px;
+        }
+
+        /* --- 2. LAYOUT DUA KOLOM (INFO + DETAIL) --- */
+        .main-layout {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            /* Kolom kiri 3/4, kolom kanan 1/4 */
+            gap: 30px;
+        }
+
+        /* --- Kolom Kiri: Detail Informasi --- */
+        .left-column {
+            background-color: #f8f8f8;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #eee;
+        }
+
+        .left-column p {
+            margin-bottom: 15px;
+        }
+
+        .left-column strong {
+            color: #333;
+        }
+
+        .schedule-list {
+            list-style: none;
+        }
+
+        .schedule-list li {
+            padding-left: 0;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .schedule-list li::before {
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            margin-right: 5px;
+            width: auto;
+        }
+
+        .schedule-list .online::before {
+            content: '\f00c';
+            color: green;
+        }
+
+        .schedule-list .offline::before {
+            content: '\f00c';
+            color: green;
+        }
+
+
+        /* --- Kolom Kanan: UOVM & Tanggal --- */
+        .right-column {
+            background-color: #e6f7ff;
+            /* Latar belakang biru muda */
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            height: fit-content;
+            /* Sesuai konten */
+        }
+
+        .right-column p {
+            margin-bottom: 5px;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        /* Responsiveness */
+        @media (max-width: 768px) {
+            .main-layout {
+                grid-template-columns: 1fr;
+                /* Satu kolom untuk perangkat kecil */
+            }
+
+            .lkmm-content h1 {
+                font-size: 2em;
+            }
+
+            .lkmm-header {
+                padding: 30px 20px;
+            }
+        }
