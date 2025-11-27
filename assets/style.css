@@ -418,14 +418,7 @@ header {
     margin-bottom: 18px;
 }
 
-label {
-    font-weight: 700;
-    font-size: 14px;
-    display: block;
-    margin-bottom: 6px;
-}
-
-input, textarea {
+.aspirasi input, textarea {
     width: 100%;
     padding: 12px;
     border-radius: 10px;
@@ -435,7 +428,7 @@ input, textarea {
     font-size: 14px;
 }
 
-textarea {
+.aspirasi .input-group textarea {
     height: 250px;
     resize: none;
     background: #e3dcdc;
