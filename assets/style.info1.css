@@ -9,7 +9,6 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #ffffff;
-    /* Latar putih */
 }
 
 .container {
@@ -65,7 +64,6 @@ body {
 .main-layout {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    /* Kolom kiri 3/4, kolom kanan 1/4 */
     gap: 30px;
 }
 
@@ -87,7 +85,6 @@ body {
 
 .right-column {
     background-color: #e6f7ff;
-    /* Latar belakang biru muda */
     padding: 20px;
     border-radius: 8px;
     text-align: center;

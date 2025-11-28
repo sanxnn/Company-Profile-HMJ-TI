@@ -142,7 +142,6 @@ body {
     margin-left: auto;
 }
 
-/* --- Separator --- */
 .separator {
     width: 80%;
     max-width: 800px;
@@ -179,7 +178,7 @@ body {
     }
     
     .ayopintar .description {
-        text-align: left; /* Teks Ayo Pintar juga rata kiri */
+        text-align: left; /* Teks Ayo Pintar juga rata kiri ges */
     }
 
     .ayopintar ol {

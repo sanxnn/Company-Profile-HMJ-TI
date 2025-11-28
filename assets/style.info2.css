@@ -115,12 +115,10 @@
         
         .right-column {
             background-color: #e6f7ff;
-            /* Latar belakang biru muda */
             padding: 20px;
             border-radius: 8px;
             text-align: center;
             height: fit-content;
-            /* Sesuai konten */
         }
 
         .right-column p {
@@ -133,7 +131,6 @@
         @media (max-width: 768px) {
             .main-layout {
                 grid-template-columns: 1fr;
-                /* Satu kolom untuk perangkat kecil */
             }
 
             .lkmm-content h1 {
