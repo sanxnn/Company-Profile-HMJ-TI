@@ -1,69 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/style.css" />
-    <link
-      rel="stylesheet"
-      href="assets/fontawesome-free-7.1.0-web/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-  </head>
-  <body>
-    <!-- navbar -->
-    <header>
-      <nav class="navbar">
-        <div class="logo">
-          <a href="index.html">
-            <img src="assets/images/logo_hmj.png" alt="HMJTI" />
-          </a>
-          <span>HMJTI</span>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/style.lomba.css">
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" href="assets/fontawesome-free-7.1.0-web/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+  <!-- navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <a href="index.html">
+          <img src="assets/images/logo_hmj.png" alt="HMJTI" />
+        </a>
+        <span>HMJTI</span>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Beranda</a></li>
+
+        <li class="dropdown">
+          <a href="#">Tentang ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="sejarah.html">Sejarah</a></li>
+            <li><a href="visi-misi.html">Visi Misi</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#">Departemen ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="struktur.html">Struktur</a></li>
+            <li><a href="departemen.html">Departemen</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#">Informasi ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="berita.html">Berita</a></li>
+            <li><a href="beasiswa.html">Beasiswa</a></li>
+            <li><a href="lomba.html">Lomba</a></li>
+          </ul>
+        </li>
+
+        <li><a href="galeri.html">Galeri</a></li>
+        <li><a href="aspirasi.html">Aspirasi</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- hero -->
+    <section class="competition-detail container">
+        <h2>INFORMASI LOMBA</h2>
+        
+        <div class="main-card-lomba">
+            <div class="card-image-box">
+                <img src="photo-informasi/logo-epim.jpg" alt="Robot Expo">
+            </div>
+            <div class="card-text-box">
+                <h3>EXPO dan Pekan Ilmiah Mahasiswa (EPIM)</h3>
+                <p>EXPO dan Pekan Ilmiah Mahasiswa (EPIM) adalah kegiatan perwujudan kreativitas mahasiswa yang dilaksanakan perguruan tinggi yang terjadwal, guna meningkatkan budaya kompetisi akademik dan untuk prestasi di kalangan mahasiswa. EPIM sebagai media pertemuan nasional dan forum kompetisi yang ditujukan sebagai sarana apresiasi kepada mahasiswa terhadap hasil karya inovatif dan kreatif, sehingga mampu mempersiapkan Politeknik Negeri Jember kepada masyarakat umum, siswa dan siswi serta perguruan tinggi lainnya. Rangkaian kegiatan EPIM terdiri dari Web Programing, Design Package, dan Expo Produk IT.</p>
+            </div>
         </div>
-
-        <ul class="nav-links">
-          <li><a href="index.html">Beranda</a></li>
-
-          <li class="dropdown">
-            <a href="#">Tentang ▾</a>
-            <ul class="dropdown-menu">
-              <li><a href="sejarah.html">Sejarah</a></li>
-              <li><a href="visi-misi.html">Visi Misi</a></li>
+        
+        <div class="jenis-lomba">
+            <div class="tag-label">
+                Jenis-jenis lomba pada EPIM
+            </div>
+            
+            <ul class="lomba-list">
+                <li>
+                    <h4>1. Web Programming</h4>
+                    <p>Front-end web programming fokus pada pembuatan tampilan yang menarik, responsif, dan fungsional untuk situs web.</p>
+                </li>
+                <li>
+                    <h4>2. Design Poster</h4>
+                    <p>Design Poster memiliki gambar dan komposisi visual yang mampu menyampaikan pesan secara efektif.</p>
+                </li>
+                <li>
+                    <h4>3. Design Packaging</h4>
+                    <p>Desain kemasan sangat penting dalam mempengaruhi persepsi konsumen, menarik perhatian mereka, dan membedakan produk dari pesaing di rak toko.</p>
+                </li>
+                <li>
+                    <h4>4. Videography</h4>
+                    <p>Video dengan teknik cinematic dan narasi visual untuk menyampaikan pesan atau cerita dalam karya video yang kreatif dan inovatif.</p>
+                </li>
             </ul>
-          </li>
-
-          <li class="dropdown">
-            <a href="#">Departemen ▾</a>
-            <ul class="dropdown-menu">
-              <li><a href="struktur.html">Struktur</a></li>
-              <li><a href="departemen.html">Departemen</a></li>
-            </ul>
-          </li>
-
-          <li class="dropdown">
-            <a href="#">Informasi ▾</a>
-            <ul class="dropdown-menu">
-              <li><a href="berita.html">Berita</a></li>
-              <li><a href="beasiswa.html">Beasiswa</a></li>
-              <li><a href="lomba.html">Lomba</a></li>
-            </ul>
-          </li>
-
-          <li><a href="galeri.html">Galeri</a></li>
-          <li><a href="aspirasi.html">Aspirasi</a></li>
-          <li><a href="kontak.html">Kontak</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <!-- hero -->
-
-    <h1>isien dewe lomba</h1>
+            
+            <p class="link-info">Informasi selengkapnya: <a href="https://epimhmjti2025.com/">https://epimhmjti2025.com/</a></p>
+        </div>
+    </section>
 
     <!-- ================= FOOTER ================= -->
     <footer class="footer">
@@ -72,11 +108,7 @@
           <!-- Kolom About HMJTI -->
           <div class="footer-col about-hmjti">
             <div class="footer-logo">
-              <img
-                src="assets/images/logo_hmj.png"
-                alt="Logo HMJTI"
-                class="logo-img"
-              />
+              <img src="assets/images/logo_hmj.png" alt="Logo HMJTI" class="logo-img" />
               <span>HMJTI</span>
             </div>
             <p>
@@ -121,5 +153,6 @@
       <p>Copyright © 2025 Design & Developed</p>
     </div>
     <script src="assets/script.js"></script>
-  </body>
+</body>
+
 </html>

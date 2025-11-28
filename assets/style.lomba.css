@@ -1,0 +1,93 @@
+.competition-detail {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.competition-detail h2 {
+    font-size: 3em;
+    color: black;
+    margin-bottom: 40px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.main-card-lomba {
+    display: flex;
+    gap: 30px;
+    background-color: #d9d9d9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+}
+
+.card-image-box {
+    flex-shrink: 0;
+    width: 200px;
+}
+
+.card-image-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card-text-box h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-top: 0;
+}
+
+.card-text-box p {
+    font-size: 1em;
+    text-align: justify;
+}
+
+.jenis-lomba {
+    background-color: #d9d9d9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.tag-label {
+    display: inline-block;
+    background-color: #ECE7E7;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border: 1px solid #ECE7E7;
+}
+
+.lomba-list {
+    list-style: none;
+    padding: 0;
+}
+
+.lomba-list li {
+    margin-bottom: 20px;
+}
+
+.lomba-list h4 {
+    font-size: 1.2em;
+    color: black;
+}
+
+.lomba-list p {
+    margin-left: 20px;
+    font-size: 0.95em;
+}
+
+.link-info {
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.link-info a {
+    color: #007bff;
+    text-decoration: none;
+}
