@@ -1,0 +1,58 @@
+.detail-departemen {
+    padding: 80px 0;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .detail-departemen .judul-departemen {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 25px;
+  }
+  
+  .detail-departemen .deskripsi-departemen {
+    max-width: 850px;
+    margin: 0 auto 50px auto;
+    font-size: 16px;
+    color: #444;
+    line-height: 1.8;
+  }
+  
+  /* GRID */
+  .grid-tugas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* FIX 2 kolom */
+    gap: 35px;
+    padding: 0 40px;
+  }
+  
+  .card-tugas {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.08);
+    text-align: left;
+  }
+  
+  .card-tugas h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .card-tugas p {
+    line-height: 1.7;
+    color: #333;
+  }
+  
+  /* RESPONSIVE */
+  @media (max-width: 600px) {
+    .detail-departemen .judul-departemen {
+      font-size: 26px;
+    }
+    .detail-departemen .deskripsi-departemen {
+      font-size: 15px;
+      padding: 0 20px;
+    }
+  }
+  
