@@ -99,3 +99,22 @@
     font-size: 26px;
   }
 }
+
+/* tambahan di style.galeri.css */
+.galeri-page {
+  display: none; /* semua page disembunyikan, JS yg tunjukin */
+}
+
+/* pagination styling (biar active keliatan) */
+.pagination .page {
+  background: #ddd;
+  color: #333;
+  padding: 8px 14px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.pagination .page.active {
+  background: #000;
+  color: #fff;
+}
